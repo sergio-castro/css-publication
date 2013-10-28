@@ -75,7 +75,9 @@ a img { /* this selector removes the default blue border displayed in some brows
 	color: blue;
 }
 
-
+#footnotes {
+	margin: 2em 0;
+}
 /* ~~ ACE ~~ */
 
 /* hiding cursors in ace code editors when they do not have the focus */
