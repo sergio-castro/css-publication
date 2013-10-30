@@ -51,6 +51,11 @@ a img { /* this selector removes the default blue border displayed in some brows
 	line-height: 0px;
 }
 
+.divImg {
+	font-size:80%; 
+	text-align:center;
+	margin: 2em 0;
+}
 
 .blockImage {
 	display: block;
@@ -78,6 +83,8 @@ a img { /* this selector removes the default blue border displayed in some brows
 #footnotes {
 	margin: 2em 0;
 }
+
+
 /* ~~ ACE ~~ */
 
 /* hiding cursors in ace code editors when they do not have the focus */
