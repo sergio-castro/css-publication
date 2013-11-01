@@ -54,7 +54,7 @@ a img { /* this selector removes the default blue border displayed in some brows
 .divImg {
 	font-size:80%; 
 	text-align:center;
-	margin: 2em 0;
+	margin: 2em 0 3em;
 }
 
 .blockImage {
