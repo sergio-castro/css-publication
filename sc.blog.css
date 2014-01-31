@@ -1,3 +1,92 @@
+/* *** general layout *** */
+html, body {
+	margin: 0;
+	padding: 0;
+	width:100%;
+	height: 100%;
+}
+
+body {
+	
+	font: 1em Helvetica, Verdana, Arial, sans-serif;
+	line-height: 1.3em;
+	font-size: 15px;
+	
+	
+	/*
+	background: #42413C;
+	color: #000;
+	*/
+	/*min-width:600px; Minimum width of layout - remove line if not required */
+					/* The min-width property does not work in old versions of Internet Explorer */
+	border:0;		/* This removes the border around the viewport in old versions of IE */
+}
+
+h1, h2, h3 {
+	
+	line-height: 1.1;
+	margin: 0.3em 0;
+	font-weight: 700;
+}
+
+h1 {
+	letter-spacing: -2px;
+	font-size: 2.8em;
+	color: #444444;
+}
+
+h2 {
+	font-size: 2.1em;
+	color: #222222;
+}
+
+h3 {
+	font-size: 1.5em;
+	color: #111111;
+}
+
+
+
+/* ~~ Element/tag selectors ~~ */
+ul, ol, dl { /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+	padding: 0;
+	margin: 0;
+}
+
+a img { /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+	border: none;
+}
+
+/* removes the bottom line in links with images that iexplorer puts*/
+.linkWithImg{
+	text-decoration: none;
+}
+
+
+/* ~~ miscellaneous classes ~~ */
+
+.clearfloat { /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #main) if the #footer is removed or taken out of the #main */
+	clear:both;
+	height:0;
+	font-size: 1px;
+	line-height: 0px;
+}
+
+
+.blockImage {
+	display: block;
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+/* *** end general layout *** */
+
+
+
+
+
+
 #siteMapContainer{
 	font-family: 1em/1em "Palatino Linotype", "Book Antiqua", Palatino, serif;
 	font-size: small;
@@ -36,7 +125,6 @@
 	position: relative;
 	width: 100%;
 	margin: 0 auto;
-	
 }
 
 
@@ -69,7 +157,6 @@
 
 #loadingImage {
 	position: absolute;
-	
 }
 
 .imageBanner {
@@ -87,8 +174,8 @@
 	height: 100%;
 	z-index: 2;
 }
-.slidesContainer{
-	
+
+.slidesContainer{	
 }
 
 /* *** end_banner *** */
@@ -263,34 +350,6 @@
 
 /* *** end_mainMenu *** */
 
-.console{
-	display: block;
-	
-	
-}
-
-.consoleMessage {
-	background: #EEB;
-	overflow: auto; 
-	text-align: center;
-	font-size: 12px;
-	
-	border-width: thin;
-	border-color:#063;
-	border-style: groove;
-	
-	
-	font-family: Verdana, Geneva, sans-serif;
-	color: #C03;
-}
-
-#javaScriptWarning {
-	
-}
-
-#errorMessage {
-	display: none;
-}
 
 
 /* *** mainContent *** */
@@ -388,9 +447,6 @@ body#noJS .noJSContent{
 /* *** footer *** */
 
 #footer {
-	/*
-	padding: 0px 10px 0px 10px;
-	*/
 	background: #CCC49F;
 	font-size: 9px;
 	
@@ -402,22 +458,7 @@ body#noJS .noJSContent{
 	
 	bottom: 0;
 	margin-left:-480px;
-/*
-	margin-left: -480px;
-	
-	
-	
-	position: relative;
-	float: left;
-	clear: both;
-	*/
-	
-	/*
-	
-	
-	*/
 	z-index: 2;
-	
 }
 
 .goUp {
@@ -452,46 +493,8 @@ h2.siteMapAnchor {
 	text-align:center;
 	cursor: pointer;
 	margin: 20px auto;
-	/*
-	
-	
-	*/
 }
 
-.minimizedSection {
-	border-style: dotted;
-	border-width: 1px;
-}
-
-#homeMenu {
-}
-#home {	
-}
-/*
-#contactDetailsContent{
-	position: relative;
-	float: left;
-}*/
-
-#myPicture{
-	height: 200px;
-	padding: 10px 0px;
-}
-
-#shortBioContent{
-	text-align: justify;
-}
-
-#researchMenu {
-}
-#research {	
-}
-
-
-#publicationsMenu {
-}
-#publications {
-}
 .publicationIcon{
 	height: 25px;
 	cursor: pointer;
@@ -522,40 +525,4 @@ h2.siteMapAnchor {
 }
 
 
-#teachingMenu {
-}
-#teaching {
-}
-
-#coursesContent{
-	
-}
-
-#teachingTable{
-	margin: 0 auto;
-	font-size: 0.9em;
-	
-}
-
-#personalMenu {
-}
-#personal {
-}
-
-
-.publicationsGroupTemplate{
-	
-}
-
-.publicationsGroupTemplate{
-	
-}
-
-.anchor{
-	
-}
-
 /* *** end real content *** */
-
-
-
