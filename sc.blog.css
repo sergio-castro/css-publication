@@ -372,42 +372,6 @@ a img { /* this selector removes the default blue border displayed in some brows
 }
 
 
-#JSMainContent{
-	
-	margin: 0;
-	padding: 0;
-	position: relative;	
-}
-
-
-#noJSMainContent{
-	
-	/*
-	
-	*/
-}
-
-/*
-	this content will be visible using JS
-*/
-.JSOnlyContent{
-	display: none;
-}
-
-/*
-elements with this tag are normally not visible (this will be overridden if JS is not available)
-*/
-.noJSContent{
-	display: none;
-	
-}
-
-/*
-content that should be visible if JavaScript is not available
-*/
-body#noJS .noJSContent{
-	display: block !important;
-}
 
 
 .contentWrapper {

@@ -1,0 +1,28 @@
+.publicationIcon{
+	height: 25px;
+	cursor: pointer;
+	/*
+	width: 30px;
+	
+	*/
+}
+
+.abstractLabel{
+	font-weight:bolder;
+	cursor: pointer;
+	text-decoration:underline;
+}
+
+.abstractContent{
+	text-align: justify;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	display: none;
+}
+
+#textToCopy{
+	font-size: smaller;
+	/*
+	font-family:"Courier New", Courier, monospace;
+	*/
+	font-family: "Times New Roman", Times, serif;
+}
