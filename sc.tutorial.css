@@ -57,6 +57,10 @@ a img { /* this selector removes the default blue border displayed in some brows
 	line-height: 0px;
 }
 
+.divList {
+	margin: 1.2em 0 1.5em;
+}
+
 .divImg {
 	font-size:80%; 
 	text-align:center;
@@ -92,7 +96,15 @@ a img { /* this selector removes the default blue border displayed in some brows
 }
 
 
+.codeEditor {
+	/*
+	background-color:#eee;
+	*/
+	margin: 1.2em 0 1.2em;
+}
+
 /* ~~ ACE ~~ */
+
 
 /* hiding cursors in ace code editors when they do not have the focus */
 .ace_hidden-cursors {opacity:0}
